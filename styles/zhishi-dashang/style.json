@@ -1,0 +1,157 @@
+{
+  "name": "zhishi-dashang",
+  "display": "知识大赏（黑金）",
+  "summary": "Warm-black ground, gold line art, Noto Serif SC, white subtitles with gold keywords, bloom + film grain, beat-snapped cuts.",
+  "files": [
+    "index.html",
+    "cover.html",
+    "engine.js",
+    "scenes.js",
+    "cover.js"
+  ],
+  "fonts": [
+    {
+      "out": "serif-sc-bold.otf",
+      "env": "ZV_FONT_BOLD",
+      "candidates": [
+        [
+          "NotoSerifCJK-Bold.ttc",
+          2
+        ],
+        [
+          "NotoSerifCJKsc-Bold.otf",
+          0
+        ],
+        [
+          "NotoSerifSC-Bold.otf",
+          0
+        ],
+        [
+          "NotoSerifSC-Bold.ttf",
+          0
+        ],
+        [
+          "SourceHanSerifSC-Bold.otf",
+          0
+        ],
+        [
+          "SourceHanSerif-Bold.ttc",
+          2
+        ]
+      ]
+    },
+    {
+      "out": "serif-sc-regular.otf",
+      "env": "ZV_FONT_REGULAR",
+      "candidates": [
+        [
+          "NotoSerifCJK-Regular.ttc",
+          2
+        ],
+        [
+          "NotoSerifCJKsc-Regular.otf",
+          0
+        ],
+        [
+          "NotoSerifSC-Regular.otf",
+          0
+        ],
+        [
+          "NotoSerifSC-Regular.ttf",
+          0
+        ],
+        [
+          "SourceHanSerifSC-Regular.otf",
+          0
+        ],
+        [
+          "SourceHanSerif-Regular.ttc",
+          2
+        ]
+      ]
+    }
+  ],
+  "fps": 30,
+  "sizes": {
+    "landscape": [
+      1920,
+      1080
+    ],
+    "portrait": [
+      1080,
+      1920
+    ]
+  },
+  "covers": {
+    "landscape": [
+      "3x4",
+      "4x3"
+    ],
+    "portrait": [
+      "3x4",
+      "4x3",
+      "9x16"
+    ]
+  },
+  "timing": {
+    "rate": 3.8,
+    "min_line": 1.8,
+    "big_extra": 0.8,
+    "lead_in": 0.0,
+    "tail": 2.0,
+    "snap": "bar"
+  },
+  "scenes": [
+    "hook",
+    "fragments",
+    "pressure",
+    "title",
+    "thought",
+    "repeat",
+    "brain_eye",
+    "scan",
+    "focus",
+    "burst",
+    "big_text",
+    "compare",
+    "steps",
+    "stat",
+    "release",
+    "dawn"
+  ],
+  "motifs": [
+    "silhouette",
+    "figure",
+    "brain",
+    "eye",
+    "bell",
+    "card",
+    "frag",
+    "astrolabe",
+    "mirror",
+    "clock",
+    "bulb",
+    "phone",
+    "glyph",
+    "none"
+  ],
+  "accents": {
+    "title": "impact",
+    "big_text": "impact",
+    "compare": "impact",
+    "stat": "impact",
+    "focus": "impact",
+    "dawn": "chime",
+    "steps": "chime",
+    "thought": "chime",
+    "release": "chime"
+  },
+  "first_shot_accent": "impact",
+  "mix": {
+    "lufs": -14.0,
+    "true_peak": -1.5,
+    "bgm_gain": 0.85,
+    "sfx": true
+  },
+  "forbidden_text": []
+}

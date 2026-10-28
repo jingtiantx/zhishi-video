@@ -1,0 +1,170 @@
+{
+ "slug": "scene-gallery",
+ "style": "zhishi-dashang",
+ "topic": "（样例）场景库一览",
+ "angle": "每种场景各一镜，用来预览样式与排版，不是成片",
+ "orientation": "both",
+ "target_duration": null,
+ "bgm": null,
+ "snap": "beat",
+ "title": "场景库",
+ "hook": "每种场景一镜：预览用",
+ "cover": {
+  "badge": "样式预览",
+  "title": "场景库",
+  "en": "SCENE GALLERY",
+  "q1": "这是一行问题",
+  "q2": "这是[金色]第二行？",
+  "caption": "zhishi-dashang 样式",
+  "motif": "glyph",
+  "glyph": "？"
+ },
+ "scenes": [
+  {
+   "scene": "hook",
+   "motif": "silhouette",
+   "lines": [
+    {
+     "text": "hook：大字+[主角]",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "scene": "fragments",
+   "lines": [
+    "fragments：碎片记忆[漂浮]"
+   ]
+  },
+  {
+   "scene": "pressure",
+   "words": [
+    "别想了",
+    "放下吧"
+   ],
+   "lines": [
+    "pressure：越压[越弹]"
+   ]
+  },
+  {
+   "scene": "title",
+   "title": "场景库",
+   "en": "SCENE GALLERY",
+   "tagline": "一句话[定义]",
+   "motif": "astrolabe",
+   "lines": [
+    {
+     "text": "title",
+     "style": "none"
+    }
+   ]
+  },
+  {
+   "scene": "thought",
+   "motif": "card",
+   "strike": true,
+   "timer": true,
+   "lines": [
+    "thought：脑中的[念头]",
+    "被划掉"
+   ]
+  },
+  {
+   "scene": "repeat",
+   "times": 4,
+   "lines": [
+    "repeat：一次又[一次]"
+   ]
+  },
+  {
+   "scene": "brain_eye",
+   "lines": [
+    "brain_eye：大脑里的[监控]"
+   ]
+  },
+  {
+   "scene": "scan",
+   "motif": "phone",
+   "lines": [
+    "scan：反复[扫描]"
+   ]
+  },
+  {
+   "scene": "focus",
+   "motif": "bulb",
+   "lines": [
+    "focus：越来越[聚焦]"
+   ]
+  },
+  {
+   "scene": "burst",
+   "labels": [
+    "工作",
+    "感情",
+    "习惯"
+   ],
+   "motif": "clock",
+   "lines": [
+    "burst：解释很多[生活]"
+   ]
+  },
+  {
+   "scene": "big_text",
+   "lines": [
+    "big_text：越抗拒，/越[深刻]"
+   ]
+  },
+  {
+   "scene": "compare",
+   "left": {
+    "label": "你以为",
+    "text": "常见的[理解]"
+   },
+   "right": {
+    "label": "其实",
+    "text": "反转的[真相]"
+   },
+   "lines": [
+    "compare：左",
+    "右边是[反转]"
+   ]
+  },
+  {
+   "scene": "steps",
+   "items": [
+    "第一步：先[看见]",
+    "第二步：再[接纳]",
+    "第三步：去[行动]"
+   ],
+   "lines": [
+    "steps：一",
+    "二",
+    "三"
+   ]
+  },
+  {
+   "scene": "stat",
+   "value": "5",
+   "unit": "分钟",
+   "label": "实验时长",
+   "lines": [
+    "stat：一个[数字]"
+   ]
+  },
+  {
+   "scene": "release",
+   "lines": [
+    "release：[放下]"
+   ]
+  },
+  {
+   "scene": "dawn",
+   "motif": "figure",
+   "lines": [
+    "dawn：收尾",
+    "[金句]收束。"
+   ]
+  }
+ ],
+ "forbidden_text": []
+}

@@ -1,0 +1,21 @@
+# build products
+build_*/
+out/
+**/qa_*/
+*.mp4
+*.wav
+*.m4a
+*.mp3
+**/audio/
+*.srt
+**/fonts/*.otf
+**/fonts/*.ttf
+**/fonts/*.ttc
+**/fonts/chars.txt
+.lint_script.txt
+# envs
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

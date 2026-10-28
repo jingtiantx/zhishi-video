@@ -1,0 +1,80 @@
+{
+ "slug": "white-bear-demo",
+ "style": "zhishi-dashang",
+ "topic": "白熊效应",
+ "angle": "你越想忘掉一件事，它越清楚——不是你意志力差，是大脑的监控机制在反复检查",
+ "orientation": "both",
+ "target_duration": 9,
+ "bgm": {
+  "path": "audio/bgm.mp3",
+  "offset": 0,
+  "fit": "trim",
+  "optional": true
+ },
+ "snap": "bar",
+ "timing": {
+  "tail": 0.0
+ },
+ "title": "白熊效应",
+ "hook": "为什么越想忘记，反而越清晰？",
+ "cover": {
+  "badge": "越压抑越反弹",
+  "title": "白熊效应",
+  "en": "WHITE BEAR EFFECT · 1987",
+  "q1": "为什么越想忘掉一个人",
+  "q2": "反而越[忘不掉]？",
+  "caption": "Wegner 等 1987 · 一项“不要想白熊”的思维抑制实验",
+  "motif": "bear",
+  "motif_scale": 1.5
+ },
+ "scenes": [
+  {
+   "scene": "hook",
+   "motif": "bear",
+   "lines": [
+    {
+     "text": "你越想忘记的，/越[清晰]",
+     "style": "big",
+     "hold": 1.9
+    }
+   ],
+   "size": 1.35
+  },
+  {
+   "scene": "title",
+   "title": "白熊效应",
+   "en": "WHITE BEAR EFFECT",
+   "motif": "bear",
+   "min": 1.8,
+   "lines": [
+    {
+     "text": "这就是白熊效应",
+     "style": "none",
+     "hold": 1.9
+    }
+   ]
+  },
+  {
+   "scene": "compare",
+   "left": {
+    "label": "你以为",
+    "text": "压住不想，/就能[忘掉]"
+   },
+   "right": {
+    "label": "其实",
+    "text": "越压抑，/越[反复出现]"
+   },
+   "lines": [
+    "你告诉自己：/别想了",
+    {
+     "text": "可越克制，/越[反复出现]",
+     "hold": 2.0
+    }
+   ]
+  }
+ ],
+ "forbidden_text": [
+  "YourBrandName"
+ ],
+ "front_blocklist": []
+}

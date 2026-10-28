@@ -1,0 +1,15 @@
+{
+  "name": "zhishi-video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Code-rendered 知识大赏-style explainer videos (Canvas 2D + Playwright + ffmpeg) with a pluggable style system",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "playwright-core install chromium || echo 'chromium download skipped — set ZV_CHROMIUM to an installed Chrome/Chromium'",
+    "check": "sh scripts/check_env.sh"
+  },
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  },
+  "engines": { "node": ">=18" }
+}

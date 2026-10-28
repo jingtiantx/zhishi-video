@@ -1,0 +1,119 @@
+{
+  "name": "_template",
+  "display": "TODO 样式中文名",
+  "summary": "TODO one line: ground, type, motion",
+  "files": [
+    "index.html",
+    "cover.html",
+    "engine.js",
+    "scenes.js",
+    "cover.js"
+  ],
+  "fonts": [
+    {
+      "out": "serif-sc-bold.otf",
+      "env": "ZV_FONT_BOLD",
+      "candidates": [
+        [
+          "NotoSerifCJK-Bold.ttc",
+          2
+        ],
+        [
+          "NotoSerifCJKsc-Bold.otf",
+          0
+        ],
+        [
+          "NotoSerifSC-Bold.otf",
+          0
+        ],
+        [
+          "NotoSerifSC-Bold.ttf",
+          0
+        ],
+        [
+          "SourceHanSerifSC-Bold.otf",
+          0
+        ],
+        [
+          "SourceHanSerif-Bold.ttc",
+          2
+        ]
+      ]
+    },
+    {
+      "out": "serif-sc-regular.otf",
+      "env": "ZV_FONT_REGULAR",
+      "candidates": [
+        [
+          "NotoSerifCJK-Regular.ttc",
+          2
+        ],
+        [
+          "NotoSerifCJKsc-Regular.otf",
+          0
+        ],
+        [
+          "NotoSerifSC-Regular.otf",
+          0
+        ],
+        [
+          "NotoSerifSC-Regular.ttf",
+          0
+        ],
+        [
+          "SourceHanSerifSC-Regular.otf",
+          0
+        ],
+        [
+          "SourceHanSerif-Regular.ttc",
+          2
+        ]
+      ]
+    }
+  ],
+  "fps": 30,
+  "sizes": {
+    "landscape": [
+      1920,
+      1080
+    ],
+    "portrait": [
+      1080,
+      1920
+    ]
+  },
+  "covers": {
+    "landscape": [
+      "3x4",
+      "4x3"
+    ],
+    "portrait": [
+      "3x4",
+      "4x3",
+      "9x16"
+    ]
+  },
+  "timing": {
+    "rate": 3.8,
+    "min_line": 1.8,
+    "big_extra": 0.8,
+    "tail": 2.0,
+    "snap": "bar"
+  },
+  "scenes": [
+    "card",
+    "big_text"
+  ],
+  "motifs": [],
+  "accents": {
+    "big_text": "impact"
+  },
+  "first_shot_accent": "impact",
+  "mix": {
+    "lufs": -14.0,
+    "true_peak": -1.5,
+    "bgm_gain": 0.85,
+    "sfx": true
+  },
+  "forbidden_text": []
+}
